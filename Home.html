@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #343a40;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand img {
+            max-height: 40px;
+            margin-right: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #343a40;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: #fff;
+            padding: 12px 16px;
+            display: block;
+            text-decoration: none;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #555;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        #carouselExampleIndicators {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: fill;
+            border-radius: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+       
+            About Me
+        
+    </header>
+
+    <!-- Modern Dropdown Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="fave movie.gif" alt="Logo">
+                Home
+            </a>
+            <a class="navbar-brand" href="https://www.youtube.com/watch?v=MmRjXaxV_PE"></a>
+            <div class="dropdown">
+                <a class="navbar-brand" href="#">Pages</a>
+                <div class="dropdown-content">
+                    <a href="contact.html">Contact Me</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="projects.html">Projects</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <h2>Schalk James-Everett</h2>
+        <p>Hello, fellow digital explorers! I'm Schalk James-Everett, your trusty coding maverick and virtual thrill-seeker. Imagine a world where code runs like poetry and every bug encountered is a plot twist waiting to be unraveled. That's the realm I call home, where I code with the finesse of a caffeinated ninja, mastering the art of algorithms and dancing with the pixels.
+
+            When I'm not diving into the binary abyss, you can catch me in the fast-paced cosmos of gaming, where I'm not just playing; I'm writing my own digital saga. Whether it's outsmarting AI opponents or strategizing the perfect raid, I bring my A-game to every virtual adventure.
+            
+            But wait, there's more to this coding wizard. Outside the confines of the screen, I'm a gym enthusiast, sculpting both my code and physique with an equal mix of determination and protein shakes. Picture me lifting weights like I'm hoisting the digital future—because, well, I am.
+            
+            Nature walks are my analog escape, where I swap the rhythmic hum of code for the soothing symphony of birdsong. Amidst the trees, I find the inspiration to write lines of code that are as harmonious as a well-composed melody.
+            
+            Now, let's talk about coding. It's not just my job; it's my passion project. I'm that kid in the digital candy store, constantly finding new flavors of code to experiment with. And here's the grand finale—I've got a mission. Bruce Wayne, step aside; there's a new digital superhero in town. Picture me coding by day, navigating virtual realms by night—all while maintaining an impeccably stylish online profile. Think sleek design meets flawless functionality.
+            
+            Join me on this exhilarating journey through the digital cosmos. Together, we'll debug challenges, unlock hidden levels, and script the code for an epic online odyssey! 💾🚀✨</p>
+    </section>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="gym.jpeg" class="d-block w-100" alt="Gym Image">
+            </div>
+            <div class="carousel-item">
+                <img src="game.jpeg" class="d-block w-100" alt="Game Image">
+            </div>
+            <div class="carousel-item">
+                <img src="coding.png" class="d-block w-100" alt="Coding Image">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // JavaScript for dropdown functionality
+        document.addEventListener("DOMContentLoaded", function () {
+            let dropdowns = document.querySelectorAll(".dropdown");
+
+            dropdowns.forEach(function (dropdown) {
+                dropdown.addEventListener("mouseenter", function () {
+                    this.querySelector(".dropdown-content").style.display = "block";
+                });
+
+                dropdown.addEventListener("mouseleave", function () {
+                    this.querySelector(".dropdown-content").style.display = "none";
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
